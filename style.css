@@ -1,0 +1,133 @@
+/* Setting all pagrins and padding to 0, so i can move everything around easier and ore efficiently */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling the navbar in all pages, changing the background colour, height and percentages of where the content will go */
+.navbar{
+  background-color: rgb(255, 128, 57);
+  display: grid;
+  height: 100px;
+  grid-template-columns: 1fr 1fr
+}
+
+.page_index_about{
+  background-color: rgb(0, 0, 0);
+  background-image: url("Images/Panda new.JPG");
+  max-width: 100%;
+  min-height: 500px
+}
+.page_projects{
+  background-color: rgb(0, 0, 0);
+  max-width: 100%;
+  min-height: 500px;
+}
+.page_contact{
+background-image: url("Images/rai.jpg");
+}
+
+.title{
+  margin : 50px 20px 5px 200px;
+  font-size: 27pt;
+  color: rgb(255, 255, 255);
+  font-family: Chewy
+}
+
+.links{
+  font-size: 10pt;
+  font-family: Arial;
+  margin : 30px 0px 0 200px;
+  color: rgb(255, 255, 255);
+}
+
+.Logo{
+margin: 10px 0 0 50px
+}
+
+
+.info{
+  color: rgb(255, 255, 255);
+  margin: 30px 0 0 50px;
+  font-size: 20pt;
+  font-family: Droid;
+}
+
+@font-face {
+  font-family: Chewy;
+  src:url(Images/chewy.regular.ttf);
+}
+@font-face {
+  font-family: Droid;
+  src:url(Images/droid.regular.ttf);
+}
+
+.title_about_us{
+  font-size: 27pt;
+  color: rgb(255, 255, 255);
+  font-family: Chewy;
+  text-align: center;
+}
+
+.card{
+border: 1px solid rgb(255, 255, 255);
+border-radius: 10px;
+padding: 1px;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font-size: 17pt;
+margin: 20px 20px 0 20px;
+}
+
+.container{
+  display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+	grid-column-gap: 100px;
+  grid-row-gap: 50px;
+}
+
+p{
+  font-family: droid
+}
+
+h2{
+  font-family: chewy;
+}
+
+.card1 a{
+    color: rgb(255, 149, 0);
+  }
+  .container_1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  .card1{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255,255,255);
+    color: rgb(0, 0,0);
+    font-size: 16pt;
+    margin: 25px 50px 50px 25px;
+    text-align: center;
+  }
+  a{
+    color: rgb(255, 255, 255);
+    font-family:Arial;
+    text-decoration: none;
+    font-size: 25pt;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+  .monkey_image{
+    margin: 25px 50px 50px 25px;
+  }
